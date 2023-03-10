@@ -1,1 +1,1 @@
-pip install -r requirments.txt && python3 app.py
+pip install -r requirments.txt && gunicorn app:app
