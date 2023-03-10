@@ -39,5 +39,4 @@ def Search(q):
         return render_template('results.html', d=g, q=q)
 
 if __name__ == "__main__":
-    app.run(host="192.168.1.22", port=80
-            )
+    app.run(host="192.168.1.22", port=80)
